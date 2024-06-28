@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Eliminación de Cuenta</title>
+</head>
+<body>
+    <h1>Solicitud de Eliminación de Cuenta</h1>
+    <p>Para solicitar la eliminación de su cuenta y los datos asociados, por favor envíenos un correo electrónico a:</p>
+    <a href="mailto:smfdevapp@gmail.com">smfdevapp@gmail.com</a>
+    <p>O complete el siguiente formulario:</p>
+    <form action="https://your-server-endpoint.com/delete-account" method="post">
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Enviar solicitud">
+    </form>
+</body>
+</html>
